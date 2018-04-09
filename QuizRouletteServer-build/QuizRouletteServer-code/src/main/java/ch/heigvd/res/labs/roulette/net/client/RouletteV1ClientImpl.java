@@ -9,9 +9,7 @@ import ch.heigvd.res.labs.roulette.net.protocol.RandomCommandResponse;
 import ch.heigvd.res.labs.roulette.net.protocol.InfoCommandResponse;
 
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.List;
@@ -128,7 +126,6 @@ public class RouletteV1ClientImpl implements IRouletteV1Client {
         else{
             throw new IOException();
         }
-        return 0;
     }
 
     @Override
