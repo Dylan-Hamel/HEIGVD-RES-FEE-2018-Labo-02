@@ -14,8 +14,10 @@ public class RouletteV1Protocol {
   public final static String CMD_HELP = "HELP";
   public final static String CMD_RANDOM = "RANDOM";
   public final static String CMD_LOAD = "LOAD";
+  public final static String CMD_LIST = "LIST";
   public final static String CMD_INFO = "INFO";
   public final static String CMD_BYE = "BYE";
+  public static final String CMD_CLEAR = "CLEAR";
 
   public final static String CMD_LOAD_ENDOFDATA_MARKER = "ENDOFDATA";
 
@@ -24,4 +26,5 @@ public class RouletteV1Protocol {
 
   public final static String[] SUPPORTED_COMMANDS = new String[]{CMD_HELP, CMD_RANDOM, CMD_LOAD, CMD_INFO, CMD_BYE};
 
+  public static final String CLEAR = "CLEAR";
 }

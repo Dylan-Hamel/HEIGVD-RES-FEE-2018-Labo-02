@@ -27,8 +27,8 @@ public class RouletteV1ClientImpl implements IRouletteV1Client {
     private Socket curr_socket;
     private StudentsStoreImpl studentList = new StudentsStoreImpl();
 
-    private OutputStream os = null;
-    private InputStream is = null;
+    protected OutputStream os = null;
+    protected InputStream is = null;
 
     private InfoCommandResponse info;
 
